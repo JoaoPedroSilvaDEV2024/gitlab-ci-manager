@@ -29,3 +29,53 @@ API (FastAPI - Python)
 Pipeline Engine (Simulação CI/CD)
         ↓
 Estado em memória (logs, histórico e métricas)
+```
+---
+
+## ⚙️ Funcionalidades
+
+### 🚀 Execução de Pipelines
+Simulação de pipeline CI/CD com etapas:
+- Build
+- Test
+- Deploy
+- Possibilidade de falhas simuladas para cenários reais
+
+### 📜 Histórico de Execuções
+- Lista de todos os pipelines executados
+- Status: sucesso ou falha
+- Timestamp de execução
+
+### 📊 Métricas de Sistema
+- Total de builds executados
+- Quantidade de sucessos
+- Quantidade de falhas
+- Taxa de sucesso (%)
+
+### 🧾 Logs em Tempo Real
+- Logs detalhados por etapa
+- Visualização estilo terminal
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+### Backend
+- Python
+- FastAPI
+- Uvicorn
+- Middleware CORS
+
+### Frontend
+- React
+- JavaScript (ES6+)
+- Axios
+- CSS customizado
+
+### DevOps (simulado)
+- GitLab CI/CD (pipeline demonstrativo)
+
+---
+
+## 🚀 Como Executar o Projeto
+
