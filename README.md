@@ -79,3 +79,4 @@ Simulação de pipeline CI/CD com etapas:
 
 ## 🚀 Como Executar o Projeto
 
+### 🔧 Backend
