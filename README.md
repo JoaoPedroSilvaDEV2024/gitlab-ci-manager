@@ -80,3 +80,84 @@ Simulação de pipeline CI/CD com etapas:
 ## 🚀 Como Executar o Projeto
 
 ### 🔧 Backend
+
+```bash
+cd backend
+pip install fastapi uvicorn
+python -m uvicorn app:app --reload
+```
+Servidor rodando em:
+```bash
+http://localhost:8000
+```
+### 💻 Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+Aplicação disponível em:
+```bash
+http://localhost:3000
+```
+---
+
+## 🔗 Endpoints da API
+
+### ▶️ Executar Pipeline
+```bash
+GET /history
+```
+### 📜 Histórico
+```bash
+GET /history
+```
+### 📊 Métricas
+```bash
+GET /metrics
+```
+---
+
+## 📊 Exemplo de Métricas
+
+```bash
+{
+  "total": 10,
+  "success": 8,
+  "failed": 2,
+  "success_rate": 80.0
+}
+```
+---
+
+## 🎯 Objetivo do Projeto
+Este projeto foi desenvolvido com foco em:
+- Simulação de pipelines CI/CD reais
+- Conceitos de DevOps e automação
+- Integração frontend + backend
+- Observabilidade básica de sistemas
+- Preparação para ambientes de produção
+
+---
+
+## 📌 CI/CD (GitLab)
+O projeto inclui um arquivo .gitlab-ci.yml demonstrativo com etapas:
+- build
+- test
+- deploy
+Simulando um fluxo padrão de integração contínua.
+
+---
+
+## 👨‍💻 Autor
+Desenvolvido por João Pedro Silva
+
+---
+
+## ⭐ Destaques
+- Dashboard estilo DevOps
+- Simulação realista de pipelines
+- Métricas automáticas
+- Logs detalhados
+- Arquitetura full stack simples e escalável
